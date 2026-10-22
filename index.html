@@ -87,6 +87,15 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--accent);border-c
 .fstep{display:none}.fstep.on{display:block}
 .notice{background:#fff7ea;border:1px solid #f3d9a8;border-radius:var(--radius);padding:16px 18px;color:#6b4b00}
 @media (prefers-color-scheme: dark){.notice{background:#2a2110;color:#f3d9a8;border-color:#5a4517}}
+/* testimonials */
+.tcard .spot{margin:0;font-size:18px;color:var(--ink)}
+.tcard .who{margin:16px 0 0;font-weight:700}
+.tcard .who span{display:block;font-weight:500;color:var(--muted);font-size:14px}
+.badge{display:inline-block;background:var(--surface2);color:var(--accent-d);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:14px}
+/* cybercab */
+.cc-card{background:var(--navy2);border:1px solid #243450;border-radius:var(--radius);padding:22px}
+.cc-card h3{font-size:22px;margin:0 0 6px;text-transform:uppercase;color:#fff}
+.cc-card p{color:#c3d2e6;margin:0}
 details{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin-bottom:12px}
 summary{font-weight:700;cursor:pointer;font-size:17px}
 details p{color:var(--ink2)}
@@ -179,6 +188,48 @@ footer h4{color:#fff;font-family:'Barlow Condensed';letter-spacing:.06em;margin:
    <p class="lede">We’ll help you model total cost of ownership, plan depot charging, and phase EVs into your fleet where they save the most.</p>
    <p style="margin-top:16px"><a class="btn dark" href="#" onclick="go('apply');return false">Request an EV quote →</a></p></div>
   </div>
+ </div></section>
+
+ <section style="background:var(--surface);border-top:1px solid var(--line)" id="testimonials"><div class="wrap">
+  <p class="kicker">Our customers</p><h2 class="title">Customer stories</h2>
+  <p class="lede">Businesses running on Prime Fleet vehicles — leased, serviced and supported under one agreement.</p>
+  <div class="grid2">
+   <div class="card tcard">
+    <span class="badge">Customer spotlight</span>
+    <p class="spot">Bharat Bhavan Restaurant &amp; Grocery keeps its restaurant, grocery and catering operation on the road with a 2026 Ford Transit T-250 leased from Prime Fleet Leasing — a late-model cargo van on one predictable monthly agreement, backed by our team for the full term.</p>
+    <p class="who">Bharat Bhavan Restaurant &amp; Grocery<span>Plano, Texas · Leasing a 2026 Ford Transit T-250</span></p>
+   </div>
+   <div class="card tcard">
+    <span class="badge">Your business here</span>
+    <h3 style="margin-top:2px">Leasing with Prime Fleet?</h3>
+    <p>We’d love to feature your story. Tell us how your vehicles are working for your business — a sentence or two is plenty — and we’ll add it here with your business name.</p>
+    <p style="margin-top:16px"><a class="btn dark" href="mailto:primeleasingcorp@gmail.com?subject=My%20Prime%20Fleet%20testimonial">✉️ Share your experience</a></p>
+    <p class="small" style="margin-top:12px">Have a story to share? We publish customer experiences only with your permission.</p>
+   </div>
+  </div>
+ </div></section>
+
+ <section style="background:var(--navy);color:#fff" id="cybercab"><div class="wrap">
+  <p class="kicker" style="color:#f3b04a">Coming next</p><h2 class="title" style="color:#fff">Cybercab — Our Next Big Move</h2>
+  <p class="lede" style="color:#cfe0f2">The Tesla Cybercab is Tesla’s purpose-built driverless robotaxi — a two-seat vehicle designed from the ground up for autonomous ride-hailing, with no steering wheel and no pedals. It is in production at Gigafactory Texas and has been carrying paying riders in Austin since September 2026.</p>
+  <div class="grid3">
+   <div class="cc-card"><h3>2 seats</h3><p>A cabin built for riders, not drivers.</p></div>
+   <div class="cc-card"><h3>No wheel, no pedals</h3><p>Fully driverless by design — nothing to steer, nothing to press.</p></div>
+   <div class="cc-card"><h3>Butterfly doors</h3><p>Wide-opening doors for easy entry and exit at the curb.</p></div>
+   <div class="cc-card"><h3>~293 miles of range</h3><p>Built for a full day of city service between charges.</p></div>
+   <div class="cc-card"><h3>Camera-based autonomy</h3><p>Tesla Vision cameras handle the navigation and the driving.</p></div>
+   <div class="cc-card"><h3>Wireless charging</h3><p>Inductive charging — no plug, no attendant, the vehicle charges itself.</p></div>
+  </div>
+  <p style="color:#cfe0f2;max-width:840px;margin-top:30px;font-size:17px">Prime Fleet Leasing has registered its interest in Tesla’s robotaxi fleet program for the Dallas region, and we are preparing our fleet operations — charging, cleaning, maintenance and rider support — for autonomous vehicles, so we’re ready as the program opens to fleet operators.</p>
+  <h3 style="font-size:26px;text-transform:uppercase;color:#fff;margin:42px 0 0">How riding works</h3>
+  <div class="grid3" style="margin-top:18px">
+   <div class="cc-card"><h3>1 · Get the app</h3><p>Download the Tesla Robotaxi app and sign in with a Tesla account.</p></div>
+   <div class="cc-card"><h3>2 · Enter your destination</h3><p>Set a destination inside the service area — live today in cities including Austin, Dallas and Houston.</p></div>
+   <div class="cc-card"><h3>3 · Confirm the ride</h3><p>See the fare estimate and arrival time, then confirm the ride.</p></div>
+   <div class="cc-card"><h3>4 · Meet your vehicle</h3><p>Check the plate shown in the app, get in, buckle up and tap Start Ride.</p></div>
+   <div class="cc-card"><h3>5 · Ride &amp; step out</h3><p>Set climate and music during the ride. At arrival, just step out — payment and receipt live in the app.</p></div>
+  </div>
+  <p style="margin-top:30px"><a class="btn" href="https://apps.apple.com/us/app/tesla-robotaxi/id6744257048" target="_blank" rel="noopener">Get the Tesla Robotaxi app</a></p>
  </div></section>
 </main>
 
@@ -288,7 +339,7 @@ footer h4{color:#fff;font-family:'Barlow Condensed';letter-spacing:.06em;margin:
 <footer><div class="wrap">
  <div class="foot">
   <div><h4>PRIME FLEET LEASING LLC</h4><p style="margin:0">Fleet leasing, management and maintenance for Texas businesses and beyond. One agreement, one invoice, zero headaches.</p></div>
-  <div><h4>EXPLORE</h4><p style="margin:0;line-height:2"><a href="#" onclick="go('fleet');return false">Our Fleet</a><br/><a href="#" onclick="go('services');return false">Services</a><br/><a href="#" onclick="go('apply');return false">Get a Quote</a></p></div>
+  <div><h4>EXPLORE</h4><p style="margin:0;line-height:2"><a href="#" onclick="go('fleet');return false">Our Fleet</a><br/><a href="#" onclick="go('services');return false">Services</a><br/><a href="#" onclick="goTestimonials();return false">Customer Stories</a><br/><a href="#" onclick="goCybercab();return false">Cybercab</a><br/><a href="#" onclick="go('apply');return false">Get a Quote</a></p></div>
   <div><h4>CONTACT</h4><p style="margin:0;line-height:2">Prime Fleet Leasing LLC<br/>📞 <a href="tel:+12012405355">(201) 240-5355</a><br/>✉️ <a href="mailto:primeleasingcorp@gmail.com">primeleasingcorp@gmail.com</a><br/><a href="#" onclick="go('apply');return false">Request a quote →</a></p></div>
  </div>
  <p class="small" style="margin-top:28px;color:#7e96b5">© 2026 Prime Fleet Leasing LLC. Vehicle availability and final terms are provided in your written quote.</p>
@@ -330,6 +381,14 @@ function go(p){
  document.querySelectorAll('#mainnav button').forEach(function(b){b.classList.toggle('active',b.getAttribute('data-page')===p)});
  document.getElementById('mainnav').classList.remove('open');
  window.scrollTo({top:0});
+}
+function goTestimonials(){
+ go('home');
+ setTimeout(function(){var el=document.getElementById('testimonials');if(el)el.scrollIntoView({behavior:'smooth'})},80);
+}
+function goCybercab(){
+ go('home');
+ setTimeout(function(){var el=document.getElementById('cybercab');if(el)el.scrollIntoView({behavior:'smooth'})},80);
 }
 document.getElementById('mainnav').addEventListener('click',function(e){
  var p=e.target.getAttribute&&e.target.getAttribute('data-page');if(p)go(p);
